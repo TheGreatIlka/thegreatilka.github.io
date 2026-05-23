@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&family=Jersey+20&family=Roboto:ital,wght@1,900&display=swap');
+
+header {
+    position: sticky;
+    top: 10px;
+    box-shadow: 0 10px 20px #000
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+h1 {
+    color: rgb(255, 123, 0);
+    font-size: 40px;
+}
+
+#banner {
+    padding: 4px;
+    margin: 4px;
+}
+
+#logo-background {
+    background: linear-gradient(45deg, #FFA100, #FFBB00);
+    border-radius: 45px;
+    z-index: 20;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>* {
+    display: flex;
+    align-items: center;
+}
+
+.gradient-orange {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #ff7b00, #ffee00)
+}
+
+.gradient-yellow {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff9900, #fbff00)
+}
+
+.gradient-white {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #dadada, #8d8d8d)
+}
+
+.gradient-white2 {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(75deg, #dadada, #a8a8a8)
+}
+
+.gradient-h1 {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #ff4800, #ffd000)
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-bkg {
+    background-color: rgb(22, 22, 22);
+}
+
+main {
+    z-index: 14;
+}
+
+a {
+    text-decoration: none;
+}
+
+//Buttons
+
+.button-fill {
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    background-color: #ff8800;
+    text-align:center; 
+}
+
+
+.buy-button {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+    background-color: #ff9100;
+    text-align:center; 
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+
+.article {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.article-cps {
+    display: inline-block;
+    background-color: #404040;
+    border-radius: 20px;
+    width: 567px;
+    padding: 10px;
+    margin: 10px 0px;
+    height: 536px;
+
+}
+
+.article-cps>* {
+        font-size: 20px;
+        vertical-align: top;
+    }
+
+
+.div-article-cps {
+    display: inline-block;
+}
+
+
+nav ul li {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+nav>* {
+    list-style: none;
+    font-size:25px;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+header .navig {
+    transition: .3s;
+}
+
+ul li:hover {
+    color:#522c00;
+    transform: scale(1.2);
+}
+
+
+ul li a {
+    color:#000000;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    transition: .7s;
+    border-radius: 20px;
+    background: #5e5e5e2a;
+    padding: 40px 55px
+}
+
+nav ul li a:hover {
+    background: #83460098;
+    border-radius: 40px;
+    color: #ffbe73;
+}
+
+body header div nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #fff;
+}
+
+nav ul li ul li {
+    width: 100%;
+}
+
+nav ul li ul li:hover {
+    background: #000;
+}
+
+.null__header-main {
+    height: 20px;
+}
+
+.shop-choice {
+    border-radius: 25px;
+    background: #5e5e5e;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shop-choice img {
+    border-radius: 150px;
+    transition: .3s;
+
+}
+
+div.shop-choice img:hover {
+    border: 3px solid #fff;
+    transform: scale(1.15);
+}
+
+.shop-main {
+    background-image: url(images/pattern-fixed.jpeg);
+    display: block;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+div.shop-main>* {
+    border-radius: 40px;
+    margin: 5px 0;
+}
+
+.shop-things {
+    background: #525252;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 400px;
+}
+
+.shop-things>img {
+    margin: 10px;
+    border-radius: 40px;
+    height: 95%
+}
+
+.shop-things>* {
+    margin: 10px;
+}
+
+.new {
+    background-color: linear-gradient(to right, #ddb223, #f3c222, #ddb223);
+    color:#dadada;
+}
+
+.null {
+    height: 10px;
+}
+
+.buy-text {
+    display: block;
+}
+
+.Year {
+    display: inline;
+    background: linear-gradient(45deg, #dd7723, #dd7723, #ffb23d, #eb8b3d);
+    padding: 10px 15px;
+    border-radius: 10px;  
+    color:#dadada;
+    font-size: 25px;
+}
+
+.footer {
+    border-radius: 30px;
+    margin: 10px 0;
+    background: linear-gradient(45deg, #dd7723, #dd7723, #ffb23d, #eb8b3d);
+    padding: 10px 30px;
+}
+
+.footer-gradient {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #ffffff, #a8a8a8, #b3b3b3, #ffffff);
+}
