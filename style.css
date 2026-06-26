@@ -17,7 +17,7 @@ h1 {
 
 #banner {
     padding: 4px;
-    margin: 4px;
+    widthL calc(100% - 4px);
 }
 
 #logo-background {
